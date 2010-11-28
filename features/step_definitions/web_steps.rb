@@ -5,7 +5,7 @@ Given /^(?:|I )am on (.+)$/ do |url|
   visit url
 end
 
-When /^(?:|I )go to (.+)$/ do |page_name|
+When /^(?:|I )go to (.+)$/ do |url|
   visit url
 end
 
